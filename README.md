@@ -15,19 +15,19 @@
 
 ## 🛠️ Technologies Used
 
-- Blender / Unity (or your animation software)
-- Python / C# (if applicable)
+- Blender / Unity 
+- Python / C# 
 - HTML
 - CSS
 - JavaScript
 
 ## 📸 Screenshots
 
-Add screenshots of your 3D character and interaction here.
+img
 
 ## 🎥 Demo Video
 
-Add your YouTube demo link here.
+.........
 
 ## 🚀 Future Enhancements
 
