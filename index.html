@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Animation Buddy</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🤖 3D Animation Buddy</h1>
+
+<p>Your Interactive Virtual Assistant</p>
+
+</header>
+
+<section class="container">
+
+<model-viewer
+    id="buddy"
+    src="assets/models/buddy.glb"
+    camera-controls
+    auto-rotate
+    autoplay
+    shadow-intensity="1"
+    exposure="1"
+    environment-image="neutral"
+    style="width:500px;height:600px;">
+</model-viewer>
+<div class="chat">
+
+<h2>💬 Chat with Buddy</h2>
+
+<input
+id="message"
+type="text"
+placeholder="Ask me anything...">
+
+<div class="buttons">
+
+<button onclick="sendMessage()">
+Send
+</button>
+
+<button onclick="startListening()">
+🎤 Speak
+</button>
+
+</div>
+
+<div id="response"></div>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
