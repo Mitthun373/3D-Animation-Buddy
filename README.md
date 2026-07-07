@@ -21,14 +21,6 @@
 - CSS
 - JavaScript
 
-## 📸 Screenshots
-
-img
-
-## 🎥 Demo Video
-
-.........
-
 ## 🚀 Future Enhancements
 
 - AI-powered conversations
